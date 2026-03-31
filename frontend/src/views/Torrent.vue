@@ -47,12 +47,12 @@
           <div v-if="isAdmin">
             <h2 class="section">Admin Tools</h2>
             <div class="py-3 border-t border-slate-200/5"></div>
-            <div class="flex flex-row items-center">
+            <!-- <div class="flex flex-row items-center">
               <button type="button" @click="deleteTorrent"
                       class="px-3 py-2 text-sm text-white bg-red-600 rounded-md hover:shadow-lg hover:shadow-red-600/25 transition duration-200">
                 Delete Torrent
               </button>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
